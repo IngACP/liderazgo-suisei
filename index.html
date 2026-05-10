@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suisei Koyama | Liderazgo y Propósito</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#f5f5f5;
+      color:#222;
+      line-height:1.8;
+    }
+
+    header{
+      height:100vh;
+      background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+      url('TU_IMAGEN_AQUI') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      color:white;
+      padding:20px;
+    }
+
+    .hero{
+      max-width:900px;
+      animation:fadeIn 1.5s ease;
+    }
+
+    .hero h1{
+      font-size:4rem;
+      font-weight:700;
+      margin-bottom:15px;
+    }
+
+    .hero h2{
+      font-size:1.5rem;
+      font-weight:300;
+      color:#ff4d4d;
+      margin-bottom:25px;
+    }
+
+    .hero p{
+      font-size:1.2rem;
+      font-style:italic;
+      max-width:700px;
+      margin:auto;
+    }
+
+    nav{
+      position:sticky;
+      top:0;
+      background:#111;
+      padding:15px;
+      z-index:999;
+    }
+
+    nav ul{
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:25px;
+      list-style:none;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      font-weight:600;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#ff4d4d;
+    }
+
+    section{
+      max-width:1100px;
+      margin:auto;
+      padding:90px 25px;
+    }
+
+    .card{
+      background:white;
+      padding:45px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    h3{
+      font-size:2rem;
+      margin-bottom:25px;
+      color:#b30000;
+    }
+
+    p{
+      margin-bottom:18px;
+    }
+
+    .strengths{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    .strength{
+      background:#fafafa;
+      padding:25px;
+      border-radius:15px;
+      text-align:center;
+      border-left:5px solid #b30000;
+      font-weight:600;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    .gallery-item{
+      background:white;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 5px 20px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .gallery-item:hover{
+      transform:scale(1.03);
+    }
+
+    .gallery-item img{
+      width:100%;
+      height:260px;
+      object-fit:cover;
+    }
+
+    .gallery-item p{
+      padding:20px;
+      font-weight:600;
+      text-align:center;
+    }
+
+    blockquote{
+      margin-top:25px;
+      padding:25px;
+      border-left:5px solid #b30000;
+      background:#fafafa;
+      font-style:italic;
+      font-size:1.1rem;
+    }
+
+    footer{
+      background:#111;
+      color:white;
+      text-align:center;
+      padding:40px 20px;
+      margin-top:50px;
+    }
+
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(30px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:2.8rem;
+      }
+
+      .hero h2{
+        font-size:1.2rem;
+      }
+
+      h3{
+        font-size:1.7rem;
+      }
+
+      .card{
+        padding:30px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <h1>Suisei Koyama</h1>
+      <h2>Liderazgo, disciplina y crecimiento personal</h2>
+
+      <p>
+        “El verdadero liderazgo no consiste en mandar, sino en inspirar a otros a creer en sí mismos.”
+      </p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#via">Test VIA</a></li>
+      <li><a href="#liderazgo">Liderazgo</a></li>
+      <li><a href="#mision">Misión</a></li>
+      <li><a href="#valores">Valores</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre-mi">
+    <div class="card">
+
+      <h3>👤 Sobre mí</h3>
+
+      <p>
+        Soy una persona comprometida con el crecimiento personal, la disciplina y el trabajo en equipo.
+        A través del deporte y de mis experiencias personales he aprendido la importancia de la perseverancia,
+        la empatía y el liderazgo positivo.
+      </p>
+
+      <p>
+        Me considero alguien responsable, motivador y enfocado en ayudar a otras personas a desarrollar su máximo potencial,
+        siempre buscando generar un impacto positivo en mi entorno.
+      </p>
+
+    </div>
+  </section>
+
+  <section id="via">
+    <div class="card">
+
+      <h3>📊 Resultados del Test VIA</h3>
+
+      <p>
+        Los resultados del test VIA reflejan fortalezas personales relacionadas con la honestidad,
+        el amor, la espiritualidad, la gratitud y el trabajo en equipo.
+      </p>
+
+      <p>
+        Estas fortalezas muestran una personalidad orientada hacia la empatía,
+        la autenticidad y el crecimiento constante.
+      </p>
+
+      <div class="strengths">
+
+        <div class="strength">Honestidad</div>
+        <div class="strength">Amor</div>
+        <div class="strength">Espiritualidad</div>
+        <div class="strength">Gratitud</div>
+        <div class="strength">Perdón</div>
+        <div class="strength">Trabajo en equipo</div>
+
+      </div>
+
+      <blockquote>
+        “La honestidad aparece como mi principal fortaleza, lo que considero fundamental
+        para construir relaciones de confianza y actuar de manera coherente con mis valores.”
+      </blockquote>
+
+    </div>
+  </section>
+
+  <section id="liderazgo">
+    <div class="card">
+
+      <h3>🧠 Visión y estilo de liderazgo</h3>
+
+      <p>
+        Mi visión de liderazgo se basa en inspirar a las personas a desarrollar su máximo potencial,
+        trabajando con responsabilidad, disciplina y empatía.
+      </p>
+
+      <p>
+        Considero que un buen líder no solo dirige, sino que también escucha, apoya y motiva
+        a su equipo para alcanzar objetivos en común.
+      </p>
+
+      <p>
+        Mi estilo de liderazgo es participativo y motivador,
+        porque me gusta trabajar en colaboración,
+        valorar las ideas de los demás y crear un ambiente de confianza.
+      </p>
+
+      <blockquote>
+        “Creo que el liderazgo no se trata de tener autoridad,
+        sino de generar impacto positivo y ayudar a otros a crecer.”
+      </blockquote>
+
+    </div>
+  </section>
+
+  <section id="mision">
+    <div class="card">
+
+      <h3>🎯 Misión y propósito de vida</h3>
+
+      <p>
+        Mi misión de vida es crecer personal y profesionalmente mientras ayudo a otras personas
+        a superar sus límites y alcanzar sus metas,
+        especialmente a través del deporte,
+        la disciplina y el trabajo en equipo.
+      </p>
+
+      <p>
+        Quiero desarrollar proyectos que generen oportunidades y apoyo para las personas,
+        promoviendo la inclusión,
+        la motivación y el desarrollo humano.
+      </p>
+
+      <p>
+        Esta misión es importante para mí porque deseo dejar una huella positiva
+        en mi comunidad y demostrar que con esfuerzo,
+        constancia y pasión es posible lograr grandes objetivos.
+      </p>
+
+    </div>
+  </section>
+
+  <section id="valores">
+    <div class="card">
+
+      <h3>❤️ Valores e inspiración</h3>
+
+      <div class="gallery">
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop">
+          <p>Disciplina</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop">
+          <p>Trabajo en equipo</p>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?q=80&w=1200&auto=format&fit=crop">
+          <p>Superación personal</p>
+        </div>
+
+      </div>
+
+      <blockquote>
+        “La disciplina tarde o temprano vencerá a la inteligencia.”
+      </blockquote>
+
+      <blockquote>
+        “El liderazgo comienza con el ejemplo.”
+      </blockquote>
+
+    </div>
+  </section>
+
+  <footer>
+
+    <h2>Suisei Koyama</h2>
+
+    <p>
+      Liderazgo • Disciplina • Crecimiento Personal
+    </p>
+
+  </footer>
+
+</body>
+</html>
